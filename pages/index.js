@@ -110,6 +110,15 @@ export default function Home({ AllCategories }) {
           .card .card-image img {
             border-radius: 7px 7px 0 0 !important;
           }
+  
+          @media (max-width: 768px) {
+            .card {
+              max-width: 350px;
+            }
+            .a {
+              margin-left: 25px;
+            }
+          }
         `}
       </style>
     </div>

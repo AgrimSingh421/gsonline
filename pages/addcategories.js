@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { v4 as uuidv4 } from "uuid";
 import { storage, db, serverTimestamp } from "../firebase";
 
-export default function addcategories({ user }) {
+export default function AddCategories({ user }) {
   const [title, setTitle] = useState("");
   const [body, setBody] = useState("");
   const [image, setImage] = useState(null);

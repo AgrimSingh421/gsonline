@@ -2,7 +2,7 @@ import { useState } from "react";
 import { db } from "../../firebase";
 import { useRouter } from "next/router";
 
-export default function categorypage({ category, user, allQuesAns }) {
+export default function CategoryPage({ category, user, allQuesAns }) {
   const [question, setQuestion] = useState("");
   const [answer, setAnswer] = useState("");
   const [allQuesAnsBlog, setAllQuesAnsBlog] = useState(allQuesAns);

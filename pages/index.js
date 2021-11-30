@@ -124,6 +124,9 @@ export default function Home({ AllCategories }) {
               .card {
                 max-width: 400px;
               }
+             a {
+               margin-left: 10px;
+             }
         `}
       </style>
     </div>

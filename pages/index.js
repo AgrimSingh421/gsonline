@@ -52,7 +52,7 @@ export default function Home({ AllCategories }) {
 
       {end === false ? (
         <button
-          className="btn #263238 blue-grey darken-4"
+          className="btn #263238 blue-grey darken-4 loadMore"
           onClick={() => loadMore()}
         >
           Load More
@@ -115,18 +115,26 @@ export default function Home({ AllCategories }) {
             .card {
               max-width: 350px;
             }
-            .a {
+            a {
               margin-left: 25px;
+            }
+            
+            .loadMore {
+              margin-bottom: 50px !important;
             }
           }
   
            @media (max-width: 700px) {
               .card {
-                max-width: 400px;
+                max-width: 350px;
               }
              a {
                margin-left: 10px;
              }
+             
+             .loadMore {
+              margin-bottom: 50px !important;
+            }
         `}
       </style>
     </div>

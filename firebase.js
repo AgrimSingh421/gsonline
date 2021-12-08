@@ -4,12 +4,12 @@ import "firebase/firestore";
 import "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCM6PsCZqM0x4KDxR-4ltHrRaLDxdUGcyg",
-  authDomain: "gs-online-f8bf6.firebaseapp.com",
-  projectId: "gs-online-f8bf6",
-  storageBucket: "gs-online-f8bf6.appspot.com",
-  messagingSenderId: "876551895794",
-  appId: "1:876551895794:web:d933cf52c005de2b8c2e6b",
+  apiKey: "AIzaSyD8GWJfoEauO5Dpu7q-NOtCoUoOY0BnmTs",
+  authDomain: "gs-online-e65fe.firebaseapp.com",
+  projectId: "gs-online-e65fe",
+  storageBucket: "gs-online-e65fe.appspot.com",
+  messagingSenderId: "956529354820",
+  appId: "1:956529354820:web:47d213ed07975471567411"
 };
 
 if (!firebase.apps.length) firebase.initializeApp(firebaseConfig);

@@ -122,6 +122,10 @@ export default function Home({ AllCategories }) {
             .loadMore {
               margin-bottom: 50px !important;
             }
+            
+            h3 {
+               margin-bottom: 90px !important;
+             }
           }
   
            @media (max-width: 700px) {
@@ -135,6 +139,10 @@ export default function Home({ AllCategories }) {
              .loadMore {
               margin-bottom: 50px !important;
             }
+             
+             h3 {
+               margin-bottom: 90px !important;
+             }
         `}
       </style>
     </div>

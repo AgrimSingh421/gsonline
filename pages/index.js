@@ -34,7 +34,7 @@ export default function Home({ AllCategories }) {
           return (
             <div className="card" key={category.createdAt}>
               <div className="card-image">
-                <img src={category.imageUrl} />
+                <img src={category.imageUrl} alt={category.title} />
                 <span className="card-title">{category.title}</span>
               </div>
               <div className="card-content">
